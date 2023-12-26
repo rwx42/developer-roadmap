@@ -22,7 +22,7 @@ class String {
         swap(buffer_, other.buffer_);
     }
 
-    String& operator=(String other) {
+    String& operator=(String& other) {
         swap(other);
         return *this;
     }
